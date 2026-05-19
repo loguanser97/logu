@@ -1,0 +1,13 @@
+name: Royce
+
+on:
+   push:
+      branhes: [ mail ]
+
+jobs:
+    demo:
+        runs-on: ubuntu-latest
+
+steps:
+   - name: Greeting
+     run: edho "we fight together for side by side!"
